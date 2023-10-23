@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E4820AD2ADDEEA3009B0F60 /* FlaxLabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4820AC2ADDEEA3009B0F60 /* FlaxLabsApp.swift */; };
+		7E4820AF2ADDEEA3009B0F60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4820AE2ADDEEA3009B0F60 /* ContentView.swift */; };
+		7E4820B12ADDEEA5009B0F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4820B02ADDEEA5009B0F60 /* Assets.xcassets */; };
+		7E4820B42ADDEEA5009B0F60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4820B32ADDEEA5009B0F60 /* Preview Assets.xcassets */; };
+		7E4820BE2ADDEEA6009B0F60 /* FlaxLabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4820BD2ADDEEA6009B0F60 /* FlaxLabsTests.swift */; };
+		7E4820C82ADDEEA6009B0F60 /* FlaxLabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4820C72ADDEEA6009B0F60 /* FlaxLabsUITests.swift */; };
+		7E4820CA2ADDEEA6009B0F60 /* FlaxLabsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4820C92ADDEEA6009B0F60 /* FlaxLabsUITestsLaunchTests.swift */; };
+		7E4820D72ADDF00D009B0F60 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4820D62ADDF00D009B0F60 /* Note.swift */; };
+		7E4820D92ADDF030009B0F60 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4820D82ADDF030009B0F60 /* NotesViewModel.swift */; };
+		7E4820DB2ADDF11D009B0F60 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E4820DA2ADDF11D009B0F60 /* GoogleService-Info.plist */; };
+		7E4820DE2ADDF50B009B0F60 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7E4820DD2ADDF50B009B0F60 /* FirebaseFirestore */; };
+		7ED342012ADF27D80003DD61 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7ED342002ADF27D80003DD61 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E4820BA2ADDEEA6009B0F60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4820A12ADDEEA3009B0F60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E4820A82ADDEEA3009B0F60;
+			remoteInfo = FlaxLabs;
+		};
+		7E4820C42ADDEEA6009B0F60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4820A12ADDEEA3009B0F60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E4820A82ADDEEA3009B0F60;
+			remoteInfo = FlaxLabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E4820A92ADDEEA3009B0F60 /* FlaxLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlaxLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4820AC2ADDEEA3009B0F60 /* FlaxLabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaxLabsApp.swift; sourceTree = "<group>"; };
+		7E4820AE2ADDEEA3009B0F60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E4820B02ADDEEA5009B0F60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E4820B32ADDEEA5009B0F60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E4820B92ADDEEA6009B0F60 /* FlaxLabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlaxLabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4820BD2ADDEEA6009B0F60 /* FlaxLabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaxLabsTests.swift; sourceTree = "<group>"; };
+		7E4820C32ADDEEA6009B0F60 /* FlaxLabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlaxLabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4820C72ADDEEA6009B0F60 /* FlaxLabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaxLabsUITests.swift; sourceTree = "<group>"; };
+		7E4820C92ADDEEA6009B0F60 /* FlaxLabsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaxLabsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E4820D62ADDF00D009B0F60 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		7E4820D82ADDF030009B0F60 /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		7E4820DA2ADDF11D009B0F60 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7EAC791D2AE72983003B4822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7EAC791E2AE729A7003B4822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E4820A62ADDEEA3009B0F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4820DE2ADDF50B009B0F60 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4820B62ADDEEA6009B0F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED342012ADF27D80003DD61 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4820C02ADDEEA6009B0F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E4820A02ADDEEA3009B0F60 = {
+			isa = PBXGroup;
+			children = (
+				7E4820AB2ADDEEA3009B0F60 /* FlaxLabs */,
+				7E4820BC2ADDEEA6009B0F60 /* FlaxLabsTests */,
+				7E4820C62ADDEEA6009B0F60 /* FlaxLabsUITests */,
+				7E4820AA2ADDEEA3009B0F60 /* Products */,
+				7ED341FF2ADF27D80003DD61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E4820AA2ADDEEA3009B0F60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E4820A92ADDEEA3009B0F60 /* FlaxLabs.app */,
+				7E4820B92ADDEEA6009B0F60 /* FlaxLabsTests.xctest */,
+				7E4820C32ADDEEA6009B0F60 /* FlaxLabsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E4820AB2ADDEEA3009B0F60 /* FlaxLabs */ = {
+			isa = PBXGroup;
+			children = (
+				7EAC791E2AE729A7003B4822 /* Info.plist */,
+				7E4820AC2ADDEEA3009B0F60 /* FlaxLabsApp.swift */,
+				7E4820AE2ADDEEA3009B0F60 /* ContentView.swift */,
+				7E4820D62ADDF00D009B0F60 /* Note.swift */,
+				7E4820D82ADDF030009B0F60 /* NotesViewModel.swift */,
+				7E4820B02ADDEEA5009B0F60 /* Assets.xcassets */,
+				7E4820DA2ADDF11D009B0F60 /* GoogleService-Info.plist */,
+				7E4820B22ADDEEA5009B0F60 /* Preview Content */,
+			);
+			path = FlaxLabs;
+			sourceTree = "<group>";
+		};
+		7E4820B22ADDEEA5009B0F60 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7E4820B32ADDEEA5009B0F60 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E4820BC2ADDEEA6009B0F60 /* FlaxLabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EAC791D2AE72983003B4822 /* Info.plist */,
+				7E4820BD2ADDEEA6009B0F60 /* FlaxLabsTests.swift */,
+			);
+			path = FlaxLabsTests;
+			sourceTree = "<group>";
+		};
+		7E4820C62ADDEEA6009B0F60 /* FlaxLabsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E4820C72ADDEEA6009B0F60 /* FlaxLabsUITests.swift */,
+				7E4820C92ADDEEA6009B0F60 /* FlaxLabsUITestsLaunchTests.swift */,
+			);
+			path = FlaxLabsUITests;
+			sourceTree = "<group>";
+		};
+		7ED341FF2ADF27D80003DD61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E4820A82ADDEEA3009B0F60 /* FlaxLabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4820CD2ADDEEA6009B0F60 /* Build configuration list for PBXNativeTarget "FlaxLabs" */;
+			buildPhases = (
+				7E4820A52ADDEEA3009B0F60 /* Sources */,
+				7E4820A62ADDEEA3009B0F60 /* Frameworks */,
+				7E4820A72ADDEEA3009B0F60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlaxLabs;
+			packageProductDependencies = (
+				7E4820DD2ADDF50B009B0F60 /* FirebaseFirestore */,
+			);
+			productName = FlaxLabs;
+			productReference = 7E4820A92ADDEEA3009B0F60 /* FlaxLabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E4820B82ADDEEA6009B0F60 /* FlaxLabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4820D02ADDEEA6009B0F60 /* Build configuration list for PBXNativeTarget "FlaxLabsTests" */;
+			buildPhases = (
+				7E4820B52ADDEEA6009B0F60 /* Sources */,
+				7E4820B62ADDEEA6009B0F60 /* Frameworks */,
+				7E4820B72ADDEEA6009B0F60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4820BB2ADDEEA6009B0F60 /* PBXTargetDependency */,
+			);
+			name = FlaxLabsTests;
+			packageProductDependencies = (
+				7ED342002ADF27D80003DD61 /* FirebaseFirestore */,
+			);
+			productName = FlaxLabsTests;
+			productReference = 7E4820B92ADDEEA6009B0F60 /* FlaxLabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E4820C22ADDEEA6009B0F60 /* FlaxLabsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4820D32ADDEEA6009B0F60 /* Build configuration list for PBXNativeTarget "FlaxLabsUITests" */;
+			buildPhases = (
+				7E4820BF2ADDEEA6009B0F60 /* Sources */,
+				7E4820C02ADDEEA6009B0F60 /* Frameworks */,
+				7E4820C12ADDEEA6009B0F60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4820C52ADDEEA6009B0F60 /* PBXTargetDependency */,
+			);
+			name = FlaxLabsUITests;
+			productName = FlaxLabsUITests;
+			productReference = 7E4820C32ADDEEA6009B0F60 /* FlaxLabsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E4820A12ADDEEA3009B0F60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7E4820A82ADDEEA3009B0F60 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7E4820B82ADDEEA6009B0F60 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7E4820A82ADDEEA3009B0F60;
+					};
+					7E4820C22ADDEEA6009B0F60 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7E4820A82ADDEEA3009B0F60;
+					};
+				};
+			};
+			buildConfigurationList = 7E4820A42ADDEEA3009B0F60 /* Build configuration list for PBXProject "FlaxLabs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E4820A02ADDEEA3009B0F60;
+			packageReferences = (
+				7E4820DC2ADDF50B009B0F60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 7E4820AA2ADDEEA3009B0F60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E4820A82ADDEEA3009B0F60 /* FlaxLabs */,
+				7E4820B82ADDEEA6009B0F60 /* FlaxLabsTests */,
+				7E4820C22ADDEEA6009B0F60 /* FlaxLabsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E4820A72ADDEEA3009B0F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4820B42ADDEEA5009B0F60 /* Preview Assets.xcassets in Resources */,
+				7E4820B12ADDEEA5009B0F60 /* Assets.xcassets in Resources */,
+				7E4820DB2ADDF11D009B0F60 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4820B72ADDEEA6009B0F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4820C12ADDEEA6009B0F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E4820A52ADDEEA3009B0F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4820D92ADDF030009B0F60 /* NotesViewModel.swift in Sources */,
+				7E4820AF2ADDEEA3009B0F60 /* ContentView.swift in Sources */,
+				7E4820AD2ADDEEA3009B0F60 /* FlaxLabsApp.swift in Sources */,
+				7E4820D72ADDF00D009B0F60 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4820B52ADDEEA6009B0F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4820BE2ADDEEA6009B0F60 /* FlaxLabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4820BF2ADDEEA6009B0F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4820CA2ADDEEA6009B0F60 /* FlaxLabsUITestsLaunchTests.swift in Sources */,
+				7E4820C82ADDEEA6009B0F60 /* FlaxLabsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E4820BB2ADDEEA6009B0F60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E4820A82ADDEEA3009B0F60 /* FlaxLabs */;
+			targetProxy = 7E4820BA2ADDEEA6009B0F60 /* PBXContainerItemProxy */;
+		};
+		7E4820C52ADDEEA6009B0F60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E4820A82ADDEEA3009B0F60 /* FlaxLabs */;
+			targetProxy = 7E4820C42ADDEEA6009B0F60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E4820CB2ADDEEA6009B0F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E4820CC2ADDEEA6009B0F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E4820CE2ADDEEA6009B0F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlaxLabs/Preview Content\"";
+				DEVELOPMENT_TEAM = H5DHH792SY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlaxLabs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.FlaxLabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7E4820CF2ADDEEA6009B0F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlaxLabs/Preview Content\"";
+				DEVELOPMENT_TEAM = H5DHH792SY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlaxLabs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.FlaxLabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7E4820D12ADDEEA6009B0F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H5DHH792SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlaxLabsTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.FlaxLabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlaxLabs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlaxLabs";
+			};
+			name = Debug;
+		};
+		7E4820D22ADDEEA6009B0F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H5DHH792SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlaxLabsTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.FlaxLabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlaxLabs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlaxLabs";
+			};
+			name = Release;
+		};
+		7E4820D42ADDEEA6009B0F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H5DHH792SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.FlaxLabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlaxLabs;
+			};
+			name = Debug;
+		};
+		7E4820D52ADDEEA6009B0F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H5DHH792SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.FlaxLabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlaxLabs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E4820A42ADDEEA3009B0F60 /* Build configuration list for PBXProject "FlaxLabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4820CB2ADDEEA6009B0F60 /* Debug */,
+				7E4820CC2ADDEEA6009B0F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4820CD2ADDEEA6009B0F60 /* Build configuration list for PBXNativeTarget "FlaxLabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4820CE2ADDEEA6009B0F60 /* Debug */,
+				7E4820CF2ADDEEA6009B0F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4820D02ADDEEA6009B0F60 /* Build configuration list for PBXNativeTarget "FlaxLabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4820D12ADDEEA6009B0F60 /* Debug */,
+				7E4820D22ADDEEA6009B0F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4820D32ADDEEA6009B0F60 /* Build configuration list for PBXNativeTarget "FlaxLabsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4820D42ADDEEA6009B0F60 /* Debug */,
+				7E4820D52ADDEEA6009B0F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E4820DC2ADDF50B009B0F60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E4820DD2ADDF50B009B0F60 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E4820DC2ADDF50B009B0F60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7ED342002ADF27D80003DD61 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E4820DC2ADDF50B009B0F60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7E4820A12ADDEEA3009B0F60 /* Project object */;
+}
